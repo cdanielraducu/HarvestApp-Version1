@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PdfActivity">
+
+    <TextView
+        android:id="@+id/textViewOnFailure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:autoText="true"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text='Acest mesaj nu are pdf cu intrebari!"'
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdf_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.github.barteksc.pdfviewer.PDFView>
+
+    <ProgressBar
+
+        android:id="@+id/progress_bar"
+        android:indeterminate="true"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>

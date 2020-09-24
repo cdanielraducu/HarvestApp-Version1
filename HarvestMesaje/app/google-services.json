@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "601760692841",
+    "firebase_url": "https://harvestapp-24d89.firebaseio.com",
+    "project_id": "harvestapp-24d89",
+    "storage_bucket": "harvestapp-24d89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601760692841:android:96aa5766ce1d99297fc0f8",
+        "android_client_info": {
+          "package_name": "com.example.harvestapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601760692841-5dair4uip08knd0jj99ju16jjkc0lmbm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALPNKBsEftESvuZ919WtaiW3r_c-uIFQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601760692841-5dair4uip08knd0jj99ju16jjkc0lmbm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601760692841:android:51bb2b954754ca0a7fc0f8",
+        "android_client_info": {
+          "package_name": "com.example.harvestmesaje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601760692841-5dair4uip08knd0jj99ju16jjkc0lmbm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALPNKBsEftESvuZ919WtaiW3r_c-uIFQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601760692841-5dair4uip08knd0jj99ju16jjkc0lmbm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

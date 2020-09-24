@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AudioActivity"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/tv_titlu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:fontFamily="@font/timmana"
+        android:paddingTop="4dp"
+        android:paddingRight="4dp"
+        android:paddingLeft="4dp"
+        android:textAlignment="textStart"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_pasaj_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:fontFamily="@font/timmana"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="8dp"
+        android:textAlignment="textStart"
+        android:textAllCaps="true"
+        android:textColor="#FF9625"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titlu" />
+
+    <TextView
+        android:id="@+id/tv_idee_centrala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:fontFamily="@font/timmana"
+        android:paddingTop="4dp"
+        android:paddingRight="4dp"
+        android:paddingLeft="4dp"
+        android:paddingBottom="4dp"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pasaj_data" />
+
+    <TextView
+        android:id="@+id/tv_puncte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="#000000"
+        android:fontFamily="@font/timmana"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="8dp"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_idee_centrala" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_puncte"
+        android:background="#000000">
+
+        <Button
+            android:id="@+id/btn_open_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intrebari"
+            />
+
+    </LinearLayout>
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

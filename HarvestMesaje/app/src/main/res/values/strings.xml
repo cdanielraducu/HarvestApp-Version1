@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HarvestMesaje</string>
+    <string name="pdfNOT">Acest mesaj nu are pdf cu intrebari!</string>
+</resources>
